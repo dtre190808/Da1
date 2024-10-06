@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+    background-color: #357EC7;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+/* Content */
+.content p {
+    margin: 15px 0;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+/* Feedback Section */
+.feedback {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.feedback h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.feedback-form input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    width: calc(100% - 110px);
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #e66b00;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 600px) {
+    .feedback-form input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .feedback-form button {
+        width: 100%;
+    }
+}
